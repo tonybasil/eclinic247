@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test1" duration-ms="51004" started-at="2016-04-23T04:11:43Z" finished-at="2016-04-23T04:12:34Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="23559" started-at="2016-04-23T04:11:43Z" finished-at="2016-04-23T04:12:07Z">
+      <class name="eclinic247automation.LoginTest">
+        <test-method status="PASS" signature="verifyLoginFailure()[pri:0, instance:eclinic247automation.LoginTest@cdd8cfc]" name="verifyLoginFailure" duration-ms="10924" started-at="2016-04-23T09:41:43Z" finished-at="2016-04-23T09:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFailure -->
+        <test-method status="PASS" signature="verifyLoginSuccess()[pri:0, instance:eclinic247automation.LoginTest@cdd8cfc]" name="verifyLoginSuccess" duration-ms="12615" started-at="2016-04-23T09:41:54Z" finished-at="2016-04-23T09:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccess -->
+      </class> <!-- eclinic247automation.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="MedicalHistory" duration-ms="27415" started-at="2016-04-23T04:12:07Z" finished-at="2016-04-23T04:12:34Z">
+      <class name="eclinic247automation.MedicalHistoryTest">
+        <test-method status="PASS" signature="addMedicalHistoryAndVerify()[pri:0, instance:eclinic247automation.MedicalHistoryTest@7a37d046]" name="addMedicalHistoryAndVerify" duration-ms="27413" started-at="2016-04-23T09:42:07Z" finished-at="2016-04-23T09:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMedicalHistoryAndVerify -->
+      </class> <!-- eclinic247automation.MedicalHistoryTest -->
+    </test> <!-- MedicalHistory -->
+  </suite> <!-- Test1 -->
+</testng-results>

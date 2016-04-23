@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test1]">
+  <test name="MedicalHistory(failed)">
+    <classes>
+      <class name="eclinic247automation.MedicalHistoryTest">
+        <methods>
+          <include name="addMedicalHistoryAndVerify"/>
+        </methods>
+      </class> <!-- eclinic247automation.MedicalHistoryTest -->
+    </classes>
+  </test> <!-- MedicalHistory(failed) -->
+</suite> <!-- Failed suite [Test1] -->
