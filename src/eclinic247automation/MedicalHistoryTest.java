@@ -51,7 +51,7 @@ public class MedicalHistoryTest {
 		commonutils.Login(driver, "testscript@gmail.com", "123456");
 		Thread.sleep(5000);
 		String URL = driver.getCurrentUrl();
-		Assert.assertEquals(URL, "http://demo.eclinic247.com/patient.html#/home" );
+		Assert.assertEquals(true, URL.contains("http://demo.eclinic247.com/patient.html") );
 
 		traverseToForm(driver);
 		//System.out.println(classLoader.getResource("eclinicfile.txt").getPath().substring(1));
