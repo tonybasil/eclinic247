@@ -40,7 +40,6 @@ public class MedicalHistoryTest {
 		driver.manage().window().maximize();
 		ClassLoader classLoader = getClass().getClassLoader();
 		
-		//File file = new File(classLoader.getResource("eclinicfile.txt").getFile());
 		File file = new File("resources/eclinicfile.txt");
 		String absolutepath = file.getAbsolutePath();
 		System.out.println(System.getProperty("user.dir"));
@@ -54,8 +53,7 @@ public class MedicalHistoryTest {
 		Assert.assertEquals(true, URL.contains("http://demo.eclinic247.com/patient.html") );
 
 		traverseToForm(driver);
-		//System.out.println(classLoader.getResource("eclinicfile.txt").getPath().substring(1));
-		//String path = classLoader.getResource("eclinicfile.txt").getPath().substring(1);
+		
 		String path = absolutepath.replaceAll("/", "\\\\");
 		
 		fillForm(driver, path);
